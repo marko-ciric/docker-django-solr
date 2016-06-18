@@ -18,5 +18,5 @@ RUN pip install virtualenv && \
 RUN apt-get install -qq -y openjdk-7-jdk && mkdir /usr/java && \
 	ln -s /usr/lib/jvm/java-7-openjdk-amd64 /usr/java/default && \
 	cd /opt && \
-	wget http://archive.apache.org/dist/lucene/solr/4.7.2/solr-4.7.2.tgz && \
-	tar -xvf solr-4.7.2.tgz && cp -R solr-4.7.2/example /opt/solr
+	wget http://archive.apache.org/dist/lucene/solr/5.2.1/solr-5.2.1.tgz && \
+	tar -xvf solr-5.2.1.tgz && cp -R solr-5.2.1/example /opt/solr
